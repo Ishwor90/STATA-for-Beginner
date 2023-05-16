@@ -407,7 +407,7 @@ net get spost9_ado  //to download supplementary files (e.g., datasets, sample do
 
 ado uninstall spost9_ado // to uninstall Spost.
 
-***Simple Graphs and Figure****
+***Simple Graphs, Figure and Tables****
 dotplot race 
 
 graph export myname.emf, replace
