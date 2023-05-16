@@ -4,6 +4,7 @@
 	********************************
 	********************************
 		*STATA for Biggner*
+		*The focus here is to create desired variables in multiple ways along with introduction to STATA majorly used codes.
 			
 	********************************
 	********************************
