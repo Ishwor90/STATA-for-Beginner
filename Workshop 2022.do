@@ -329,7 +329,7 @@ save "$project/eduexp", replace
 	merge m:1 xhpsu xhnum v01_idc using "$project/hhld dem0"
 	*tab _merge if  v01_03>=5 & v01_10==1
 	keep if _merge ==3
-	recode v10_04* (2=0)  // I want know total number of months worked. So want to add it at row level. But yes is coded as 1 and no is coded as 2.
+	recode v10_04* (2=0)  // I want to know total number of months worked. So want to add it at row level. But yes is coded as 1 and no is coded as 2.
 						  // so adding only 1 gives me total number of months worked at different jobs
 						  // so making 2 zero and adding 
 	egen total_months=rowtotal( v10_04*)  // gives total number of months worked in particular jobs
@@ -407,7 +407,7 @@ net get spost9_ado  //to download supplementary files (e.g., datasets, sample do
 
 ado uninstall spost9_ado // to uninstall Spost.
 
-***Graphs and Figure****
+***Simple Graphs and Figure****
 dotplot race 
 
 graph export myname.emf, replace
