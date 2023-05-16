@@ -3,8 +3,7 @@
 
 	********************************
 	********************************
-
-			*Data Management*
+		*STATA for Biggner*
 			
 	********************************
 	********************************
@@ -240,7 +239,7 @@ recode edu_completed ( 0 =0 "no formal edu") (1/5= 2 "primary 1-5") (6/10=3 "mid
 																		*Anways try to know why something is missing and treat them accordingly, like 
 																		*treating them as zero or making different categories or dropping depending on 
 																		*your objectives. But befor dropping be very careful about it.
-		 
+		 *****For Household total expenditure on education
 		 bys xhpsu xhnum : egen hhld_edu_exp=sum(edu_exp)  //It sum the individual expenditures at household level. bys xhpsu xhnum code ask it to do so.
 		
 		
