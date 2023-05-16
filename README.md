@@ -7,4 +7,4 @@ You will learn reshape data.
 You will see  use of nested loop to create desired variables.
 You will be introduced basic simple graphs and table.
 Workshop 2022.do is the do file with detailed comments to guide you
-Data NLSS-III contain random 1000 observation datasets used for the example.
+Data NLSS-III contain random 1000 observations datasets for each files from Nepal Living Standard Survey 2010-11, used for the example.
