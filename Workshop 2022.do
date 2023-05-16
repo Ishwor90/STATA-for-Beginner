@@ -281,7 +281,7 @@ save "$project/eduexp", replace
  *******merging*******
  
  use "$project/eduexp", clear
- merge 1:1 xhpsu xhnum using "$project/eduinfo" // keeping only matched information
+ merge 1:1 xhpsu xhnum using "$project/eduinfo" // merging household level eduexp data with eduinfo dataset
  keep if _merge ==3  //keeping only match info. if you add option keep(3) in above command you dont need to write this command.
  tab _merge
  drop _merge
